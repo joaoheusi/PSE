@@ -1,0 +1,20 @@
+{% extends 'base.html' %}
+{% block bodyblock %}
+    <div class="container">
+    <div class="jumbotron">
+        <h1 class="display-2">Smart Lamp</h1>
+        <h2 class="display-4">Aplicacao</h2>
+        <hr class="my-4">
+        <p>Texto de introdução do que a aplicação faz.</p>
+        <a class="btn btn-primary btn-lg" href="/index" role="button">Página Inicial</a>
+        <a class="btn btn-primary btn-lg" href="/historico" role="button">Historico</a>
+      </div>
+    </div>
+
+    <div class="container">
+            <form action="" method="POST">
+                <a class="btn {{ button_class }} btn-lg" href="{{ button_url }}" role="button"> {{ button_name }}</a>
+            </form>
+		</div>
+    </div>
+{% endblock bodyblock %}

@@ -1,0 +1,10 @@
+{
+    "1": {
+        "status": "Desligado"
+    },
+    "2": {
+        "status": "Ligado",
+        "hora": "2020-10-19 23:36:23.282225",
+        "origem": "web"
+    }
+}
