@@ -12,8 +12,8 @@
     </div>
 
     <div class="container">
-            <form action="" method="POST">
-                <a class="btn {{ button_class }} btn-lg" href="{{ button_url }}" role="button"> {{ button_name }}</a>
+            <form action="{{ url_for(button_url) }}" method="POST">
+                <input type="submit" name="confirm"class="btn {{ button_class }} btn-lg" value="{{ button_name }}">
             </form>
 		</div>
     </div>
